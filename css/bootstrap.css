@@ -1,0 +1,162 @@
+@media (min-width:576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width:768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width:576px) {
+    .col-sm-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .col-md-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media (min-width:768px) {
+    .col-md-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .col-md-4 {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+    .col-md-8 {
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
+}
+
+@media (max-width:768px) {
+    .footer-widget {
+        margin-bottom: 40px;
+    }
+    .lead,
+    .service-content p {
+        font-size: 12px !important;
+        margin-bottom: 0 !important;
+    }
+    .section-subcontent {
+        font-size: 12px !important;
+        margin-bottom: 0 !important;
+    }
+    .carousel h2 {
+        font-size: 42px !important;
+    }
+    .carousel h3 {
+        font-size: 16px !important;
+    }
+    .section-title {
+        font-size: 26px;
+        line-height: 45px;
+    }
+    .section-title:first-child {
+        padding: 60px 0px 15px;
+    }
+    #prev,
+    #next {
+        display: none;
+    }
+}
+
+@media (min-width:992px) {
+    .col-lg-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .navbar-nav {
+        display: none;
+    }
+    .slickbar-nav {
+        display: block !important;
+    }
+}
+
+*,
+ ::after,
+ ::before {
+    box-sizing: inherit
+}
+
+.col-xs-1,
+.col-sm-1,
+.col-md-1,
+.col-lg-1,
+.col-xs-2,
+.col-sm-2,
+.col-md-2,
+.col-lg-2,
+.col-xs-3,
+.col-sm-3,
+.col-md-3,
+.col-lg-3,
+.col-xs-4,
+.col-sm-4,
+.col-md-4,
+.col-lg-4,
+.col-xs-5,
+.col-sm-5,
+.col-md-5,
+.col-lg-5,
+.col-xs-6,
+.col-sm-6,
+.col-md-6,
+.col-lg-6,
+.col-xs-7,
+.col-sm-7,
+.col-md-7,
+.col-lg-7,
+.col-xs-8,
+.col-sm-8,
+.col-md-8,
+.col-lg-8,
+.col-xs-9,
+.col-sm-9,
+.col-md-9,
+.col-lg-9,
+.col-xs-10,
+.col-sm-10,
+.col-md-10,
+.col-lg-10,
+.col-xs-11,
+.col-sm-11,
+.col-md-11,
+.col-lg-11,
+.col-xs-12,
+.col-sm-12,
+.col-md-12,
+.col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.mgt-10 {
+    margin-bottom: 10px;
+}
